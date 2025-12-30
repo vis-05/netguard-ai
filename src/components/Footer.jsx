@@ -69,7 +69,9 @@ function Footer({ connectionStatus, stats }) {
           {/* Right section - External links */}
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://github.com/vis-05/netguard-ai"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-1 text-xs font-mono text-gray-500 hover:text-benign transition-colors"
             >
               <Github className="w-4 h-4" />
